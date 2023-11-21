@@ -2,7 +2,7 @@
 
 from math import gcd
 
-for z in range(t := int(input())):
+for z in range(int(input())):
     c = 0
     n = int(input())
     a = list(map(lambda x: int(x), input().split(" ")))
@@ -11,4 +11,4 @@ for z in range(t := int(input())):
             if gcd(a[i], 2*a[j]) > 1 or gcd(2*a[i], a[j]) > 1:
                 c += 1
 
-print(c)
+    print(c)
