@@ -8,7 +8,7 @@ def charword(word):
     return alpha
 
 # loop over words
-with open(r"C:\Users\Cheryl\Desktop\academic ish\Others\computer science things\USACO\simulation\blocks.in") as block:
+with open(r"C:\Users\Cheryl\Documents\GitHub\usaco\past problems\simulation\blocks.in") as block:
     n = int(block.readline())
     words = [block.readline().split() for j in range(n)]
     block.close()
