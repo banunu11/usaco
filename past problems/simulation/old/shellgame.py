@@ -1,7 +1,7 @@
 # http://www.usaco.org/index.php?page=viewproblem2&cpid=891
 
 order = []
-with open(r"shell.in") as shell:
+with open(r"past problems\simulation\old\shell.in") as shell:
     n = int(shell.readline())
     for k in range(n):
         order.append(shell.readline().split())
