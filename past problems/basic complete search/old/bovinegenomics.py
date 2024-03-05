@@ -17,10 +17,8 @@ with open('cownomics.in', 'r') as file:
         normal.append(grp2)
 file.close()
 
-maxl = 0
 count = 0
 for f in range(m):
-
     if len(spot[f]) == len(spot[f].difference(normal[f])):
     # if len(spot[f].intersection(normal[f])) == 0: also works
         count += 1
